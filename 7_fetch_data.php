@@ -30,7 +30,7 @@
         // echo var_dump($row);
         // echo "<br>";
 
-        while($row = mysqli_fetch_assoc($result)){//jya sudhi result aavya rakhe tya sudhi
+        while($row = mysqli_fetch_assoc($result)){//jya sudhi result aavya rakhe tya sudhi,it will return array
             // echo var_dump($row);
             echo $row['user_id'] . " hello " . $row['name'] . "turn into " . $row['age'] . " and you " . $row['type'];
             echo "<br>";
